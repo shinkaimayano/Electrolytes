@@ -2074,10 +2074,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "rotSW-R" (shape input) (at 43.18 103.505 0) (fields_autoplaced)
+  (global_label "rotSW_R" (shape input) (at 43.18 103.505 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a716087a-dea4-448b-a019-784dc1f3a476)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 54.25 103.505 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 53.6452 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2406,51 +2406,6 @@
       (project "Basic Kit"
         (path "/f204a189-eee5-4d48-ac75-932991964b0f/a01dbfa2-28e9-4755-a78d-3f98b04bafe2"
           (reference "D1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 102.87 129.54 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 07fc7c00-237b-4600-b68e-f0d0ee9ef659)
-    (property "Reference" "#PWR064" (at 96.52 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 99.695 129.54 90)
-      (effects (font (size 1 1)) (justify right))
-    )
-    (property "Footprint" "" (at 102.87 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 102.87 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d8985a16-589d-471d-8895-6108745aedcc))
-    (instances
-      (project "Chop Shop (Revival)"
-        (path "/1027873b-2f6e-41c2-9a0e-e655453de127"
-          (reference "#PWR064") (unit 1)
-        )
-      )
-      (project "Hisui"
-        (path "/68a3b41d-2fa2-4c97-892f-e2f3452d514a"
-          (reference "#PWR0101") (unit 1)
-        )
-      )
-      (project "Electrolytes"
-        (path "/79f0cd58-4c68-464d-9750-2afff68b5af5"
-          (reference "#PWR013") (unit 1)
-        )
-      )
-      (project "Phony"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0121") (unit 1)
-        )
-      )
-      (project "QAZ (RP2040)"
-        (path "/ee27d19c-8dca-4ac8-a760-6dfd54d28071"
-          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -4197,6 +4152,51 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 102.87 132.08 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 73cf7e71-ef08-43de-b135-840e754a274d)
+    (property "Reference" "#PWR064" (at 96.52 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 99.695 132.08 90)
+      (effects (font (size 1 1)) (justify right))
+    )
+    (property "Footprint" "" (at 102.87 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 102.87 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3738450b-eb17-45a8-9012-ea83b5541366))
+    (instances
+      (project "Chop Shop (Revival)"
+        (path "/1027873b-2f6e-41c2-9a0e-e655453de127"
+          (reference "#PWR064") (unit 1)
+        )
+      )
+      (project "Hisui"
+        (path "/68a3b41d-2fa2-4c97-892f-e2f3452d514a"
+          (reference "#PWR0101") (unit 1)
+        )
+      )
+      (project "Electrolytes"
+        (path "/79f0cd58-4c68-464d-9750-2afff68b5af5"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "Phony"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR0121") (unit 1)
+        )
+      )
+      (project "QAZ (RP2040)"
+        (path "/ee27d19c-8dca-4ac8-a760-6dfd54d28071"
+          (reference "#PWR0104") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Shinkai_Library:MX_Switch") (at 34.29 55.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7444d1f7-7226-43a0-b6cd-ed016be46493)
@@ -5889,6 +5889,51 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 102.87 129.54 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d9e8bd71-c36b-441b-a1bd-edd7a734361e)
+    (property "Reference" "#PWR064" (at 96.52 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 99.695 129.54 90)
+      (effects (font (size 1 1)) (justify right))
+    )
+    (property "Footprint" "" (at 102.87 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 102.87 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 521ee1ba-6b4c-4649-aaff-9bea30ebc1ca))
+    (instances
+      (project "Chop Shop (Revival)"
+        (path "/1027873b-2f6e-41c2-9a0e-e655453de127"
+          (reference "#PWR064") (unit 1)
+        )
+      )
+      (project "Hisui"
+        (path "/68a3b41d-2fa2-4c97-892f-e2f3452d514a"
+          (reference "#PWR0101") (unit 1)
+        )
+      )
+      (project "Electrolytes"
+        (path "/79f0cd58-4c68-464d-9750-2afff68b5af5"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "Phony"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR0121") (unit 1)
+        )
+      )
+      (project "QAZ (RP2040)"
+        (path "/ee27d19c-8dca-4ac8-a760-6dfd54d28071"
+          (reference "#PWR0104") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:RotaryEncoder_Switch") (at 121.92 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dafba6f1-62da-48ed-a840-d3869eec0c84)
@@ -5918,51 +5963,6 @@
       (project "Electrolytes"
         (path "/79f0cd58-4c68-464d-9750-2afff68b5af5"
           (reference "RE1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 102.87 132.08 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ddec43bf-1425-4e9f-8cb1-c8ca84e2fc31)
-    (property "Reference" "#PWR064" (at 96.52 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 99.695 132.08 90)
-      (effects (font (size 1 1)) (justify right))
-    )
-    (property "Footprint" "" (at 102.87 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 102.87 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c322dbed-00ea-4ad0-933f-bc3e7605df93))
-    (instances
-      (project "Chop Shop (Revival)"
-        (path "/1027873b-2f6e-41c2-9a0e-e655453de127"
-          (reference "#PWR064") (unit 1)
-        )
-      )
-      (project "Hisui"
-        (path "/68a3b41d-2fa2-4c97-892f-e2f3452d514a"
-          (reference "#PWR0101") (unit 1)
-        )
-      )
-      (project "Electrolytes"
-        (path "/79f0cd58-4c68-464d-9750-2afff68b5af5"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-      (project "Phony"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0121") (unit 1)
-        )
-      )
-      (project "QAZ (RP2040)"
-        (path "/ee27d19c-8dca-4ac8-a760-6dfd54d28071"
-          (reference "#PWR0104") (unit 1)
         )
       )
     )

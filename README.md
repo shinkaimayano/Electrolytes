@@ -6,7 +6,7 @@ Special thanks to [rlbaxter](https://github.com/rlbaxter) for the original [Elec
 
 Some great cases that fit this PCB are the [Umō](https://github.com/pohjolaworks/Umo) by [PohjolaWorks](https://github.com/pohjolaworks) and the case by HaiZeus#0411.
 
-The firmware is currently a work-in-progress.
+The firmware can be found [here](https://github.com/shinkaimayano/Firmwares/tree/main/electrolytes/rev2.0).
 
 ## Layout and Renders
 
